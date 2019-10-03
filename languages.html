@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robotics</title>
+	<style type="text/css">
+		body{background-color: #CCCCFF;}
+		h1{color:	#FFFFF0;font-size:48px;}
+		h2{color:		#1C39BB;}
+		#navbar{margin: 0px;height: 65px;background-color:#003153;border-radius: 5px; }
+	#navbar ul{list-style-type: none;
+		margin:0;
+		padding: 16px;
+		border-radius: 5px;
+		text-align: center;
+		background-color:#003153;
+		border-radius: 5px;
+		}
+		
+		#navbar ul li{display: inline;}
+		#navbar ul li a{
+		background-color:#003153;	
+		color: white;
+		font-size: 25px;
+		text-decoration: none;
+		text-align: center;
+		padding-left: 30px;padding-right: 30px;
+		 }
+		 
+		#navbar ul li a:hover {background-color:white;color:black;  }
+		.header{padding:100px;background-image:url(s.png);background-repeat: no-repeat; border-radius: 5px;}
+		
+		#para1,#para2,#para3,#para4,#para5,#para6,#para7,#para8,#para9,#para10{text-align: justify;font-size:16px;border-color: black;border-width: 2px;border-style: solid;padding: 20px;margin: 20PX;font-family: verdana;border-radius: 5px;background-color: white;}
+		#footer{margin: 0px;height: 65px;background-color:#003153;border-radius: 5px;font-weight: bold;padding-top: 25px;}
+	</style>
+</head>
+<body>
+<div id="navbar"> 
+<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="history.html">HISTORY</a></li>
+		<li><a href="technology.html">TECHNOLOGIES</a></li>
+		<li><a href="languages.html">LANGUAGES</a></li>
+		<li><a href="application.html">APPLICATIONS</a></li>
+		<li><a href="types.html">TYPES</a></li>
+		<li><a href="careers.html">USES & CAREERS</a></li>
+		
+	</ul>
+</div>
+	<br>
+	
+	<div class="header">
+		<h1 align="center"><b>Popular Programming Languages <br>in Robotics</b></h1>
+	</div>
+	<br>
+	<br>
+
+<marquee><img src="hjg.jpg">&nbsp&nbsp<img src="java.png">&nbsp&nbsp<img src="python.png">&nbsp&nbsp<img src="cc.jpg">&nbsp&nbsp<img src="logo.png">&nbsp&nbsp<img src="cg.jpg"></marquee>
+<h2>1.C/C++</h2>
+<p id="para1">The Number 1 programming language in robotics is C/C++. Many people agree that C and C++ are a good starting point for new roboticists. Why? Because a lot of hardware libraries use these languages. They allow interaction with low level hardware, allow for real time performance and are very mature programming languages. These days, you'll probably use C++ more than C, because the language has much more functionality. C++ is basically an extension of C. It can be useful to learn at least a little bit of C first, so that you can recognize it when you find a hardware library written in C. C/C++ are not as simple to use as, say, Python or MATLAB. It can take quite a lot longer to implement the same functionality using C and it will require many more lines of code. However, as robotics is very dependent on real time performance, C and C++ are probably the closest thing that we roboticists have to "a standard language".</p>
+<h2>2.Python</h2>
+<p id="para2">There has been a huge resurgence of Python in recent years especially in robotics. One of the reasons for this is probably that Python (and C++) are the two main programming languages found in ROS. Like Java, it is an interpretive language. Unlike Java, the prime focus of the language is ease of use. Many people agree that it achieves this very well. Python dispenses with a lot of the usual things which take up time in programming, such as defining and casting variable types. Also, there are a huge number of free libraries for it, which means you don't have to "reinvent the wheel" when you need to implement some basic functionality. And since it allows simple bindings with C/C++ code, this means that performance heavy parts of the code can be implemented in these languages to avoid performance loss. As more electronics start to support Python "out-of-the-box" (as with Raspberry Pi), we are likely to see a lot more Python in robotics.</p>
+<h2>3.Java</h2>
+<p id="para3">Java "hides" the underlying memory functionality from the programmer, which makes it easier to program than, say, C, but also this means that you have less of an understanding of what it's actually doing with your code. If you come to robotics from a computer science background (and many people do, especially in research) you will probably already have learned Java. Like C# and MATLAB, Java is an interpretive language, which means that it is not compiled into machine code. Rather, the Java Virtual Machine interprets the instructions at runtime. The theory for using Java is that you can use the same code on many different machines, thanks to the Java Virtual Machine. In practice, this doesn't always work out and can sometimes cause code to run slowly. However, Java is quite popular in some parts of robotics, so you might need it.</p>
+<h2 >4.C#/.NET</h2>
+<p id="para4">C# is a proprietary programming language provided by Microsoft.C#/.NET inlude here largely because of the Microsoft Robotics Developer Studio, which uses it as its primary language. If you are going to use this system, you're probably going to have to use C#. However, learning C/C++ first might be a good option for long term development of your coding skills.</p>
+<h2>5.MATLAB</h2>
+<p id="para5">MATLAB, and its open source relatives, such as Octave, is very popular with some robotic engineers for analyzing data and developing control systems. There is also a very popular Robotics Toolbox for MATLAB.The people who have developed entire robotics systems using MATLAB alone. If you want to analyze data, produce advanced graphs or implement control systems, you will probably want to learn MATLAB.</p>
+
+<h2>6.ASssembly</h2>
+<p id="para6">Assembly allows you to program at "the level of ones and zeros”. This is programming at the lowest level (more or less). In the recent past, most low level electronics required programming in Assembly. With the rise of Arduino and other such microcontrollers, you can now program easily at this level using C/C++, which means that Assembly is probably going to become less necessary for most roboticists.</p>
+<h2>7.Hardware Description Languages (HDLs)</h2>
+<p id="para7">Hardware Description Languages are basically a programming way of describing electronics. These languages are quite familiar to some roboticists, because they are used to program Field Programmable Gate Arrays (FPGAs). FPGAs allow you to develop electronic hardware without having to actually produce a silicon chip, which makes them a quicker and easier option for some development. If you don't prototype electronics, you may never use HDLs. Even so, it is important to know that they exist, as they are quite different from other programming languages. For one thing, all operations are carried out in parallel, rather than sequentially as with processor based languages.</p>
+<h2>8.LISP</h2>
+<p id="para8">LISP is the world's second oldest programming language (FORTRAN is older, but only by one year). It is not as widely used as many of the other programming languages on this list; however, it is still quite important within Artificial Intelligence programming. Parts of ROS are written in LISP, although you don't need to know it to use ROS.</p>
+<h2>9.Industrial Robot Languages</h2>
+<p id="para9">Almost every robot manufacturer has developed their own proprietary robot programming language, which has been one of the problems in industrial robotics. You can become familiar with several of them by learning Pascal. However, you are still going to have to learn a new language every time you start using a new robot.
+ABB has its RAPID programming language. Kuka has KRL (Kuka Robot Language). Comau uses PDL2, Yaskawa uses INFORM and Kawasaki uses AS. Then, Fanuc robots use Karel, Stäubli robots use VAL3 and Universal Robots use URScript.
+In recent years, programming options like ROS Industrial have started to provide more standardized options for programmers. However, if you are a technician, you are still more likely to have to use the manufacturer's language.
+</p>
+<h2>10.BASIC / Pascal</h2>
+<p id="para10">BASIC and Pascal were two of the first programming languages that I ever learned. However, that's not why I've included them here. They are the basis for several of the industrial robot languages, described below. BASIC was designed for beginners (it stands for Beginners All-Purpose Symbolic Instruction Code), which makes it a pretty simple language to start with. Pascal was designed to encourage good programming practices and also introduces constructs like pointers, which makes it a good “stepping stone” from BASIC to a more involved language. These days, both languages are a bit outdated to be good for “everyday use”. However, it can be useful to learn them if you're going to be doing a lot of low level coding or you want to become familiar with other industrial robot languages.</p>
+<br>
+<br>
+<br>
+<div id="footer">
+	<marquee>&copy; ROBOTICS All Right Reserved <br> &nbsp&nbsp&nbsp&nbspW G G Buddhika | 15APC2324</marquee>
+</div>
+</html>
